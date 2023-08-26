@@ -1,0 +1,31 @@
+url: https://felixluginbuhl.com/colornames
+template:
+  bootstrap: 5
+  bootswatch: litera
+  ganalytics: UA-158089797-1
+
+navbar:
+  left:
+  - text: Home
+    href: index.html
+  - text: Reference
+    href: reference/index.html
+  right:
+  - icon: fa-linkedin
+    href: https://www.linkedin.com/in/felixluginbuhl
+  - icon: fa-twitter
+    href: https://twitter.com/FelixLuginbuhl
+  - icon: fa-github
+    href: https://github.com/lgnbhl/colornames
+  - icon: fa-home
+    href: http://felixluginbuhl.com
+
+reference:
+  - title: "Functions"
+    contents:
+    - get_color_thecolorapi
+    - get_color_thecolorapi_scheme
+    - get_color_colornames
+    - get_color_colornames_latest
+    - get_color_colornames_random
+    - get_color_colorpizza

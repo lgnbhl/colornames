@@ -4,22 +4,21 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
+<!-- badges: end -->
+
+# colornames
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   warning = FALSE,
-  message = FALSE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
+  message = FALSE
 )
 ```
 
-## Overview
-
-<!-- badges: start -->
-[![CRAN status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
-<!-- badges: end -->
+> Convert Color Values into Color Names
 
 The **colornames** R package aims to convert color values into color names using various APIs:
 
@@ -149,7 +148,7 @@ The function `get_color_colornames()` can also return a dataframe using `return_
 ```{r}
 df <- get_color_colornames(hex = "3D290C", return_name_only = FALSE)
 #add "#" back in beginning of each hex code
-df$hex <- paste0("#", df$hex)
+df$hexCode <- paste0("#", df$hexCode)
 df
 ```
 

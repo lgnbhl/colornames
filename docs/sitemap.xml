@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/404.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/index.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_colornames.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_colornames.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_colorpizza.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_colorpizza.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_name.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_name_latest.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_name_file.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_name_random.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_name_latest.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_thecolorapi.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_name_random.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/get_color_thecolorapi_scheme.html</loc>
   </url>
   <url>
-    <loc>/reference/get_color_thecolorapi.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_color_thecolorapi_scheme.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://felixluginbuhl.com/colornames/reference/index.html</loc>
   </url>
 </urlset>
