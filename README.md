@@ -6,7 +6,7 @@
 status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
 <!-- badges: end -->
 
-# colornames
+# colornames <img src="man/figures/logo.png" align="right" height="138" />
 
 > Convert Color Values into Color Names
 
@@ -219,8 +219,8 @@ You an also get an random color name:
 
 ``` r
 get_color_colornames_random(return_name_only = FALSE)
-##   hexCode             name
-## 1  370c3f Dracula's Boxers
+##   hexCode              name
+## 1  f771ad Pretty Little Pig
 ```
 
 You can explore the latest 100 submissions:
@@ -229,13 +229,13 @@ You can explore the latest 100 submissions:
 latest_100 <- get_color_colornames_latest(return_name_only = FALSE)
 
 head(latest_100)
-##    nameId hexCode                      name
-## 1 5192876  3be482                     Netea
-## 2 5192875  3c4b73      Grey Blue Purple Sky
-## 3 5192874  2bbff2 Blue Sky Drawn By A Child
-## 4 5192873  fa92a1         The Lips Of Venus
-## 5 5192872  3a3a49               Vile Vortex
-## 6 5192871  1ddcac             God's Gardens
+##    nameId hexCode                             name
+## 1 5192882  991bb2 Cadbury Heroes Box Colour Purple
+## 2 5192881  acf4d8               Minty Bubblegum Ho
+## 3 5192880  c80c3b                Blood Cell Red Ho
+## 4 5192879  8c345a    Morado Una Mijilla Mas Oscuro
+## 5 5192878  04b481               Babylonian Gardens
+## 6 5192877  af171f                  Cannibal's Love
 ```
 
 You can loop to get color names of a given palette:

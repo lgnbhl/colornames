@@ -8,7 +8,7 @@ output: github_document
 [![CRAN status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
 <!-- badges: end -->
 
-# colornames
+# colornames <img src="man/figures/logo.png" align="right" height="138" />
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
