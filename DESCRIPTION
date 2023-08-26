@@ -1,0 +1,17 @@
+Package: colornames
+Type: Package
+Title: Convert Color Values into Color Names
+Version: 0.1.0
+Authors@R: c(person("Félix", "Luginbuhl", role = c("aut", "cre"),
+    email = "felix.luginbuhl@protonmail.ch"))
+Maintainer: Félix Luginbuhl <felix.luginbuhl@protonmail.ch>
+Description: R wrapper of various APIs, i.e. <www.thecolorapi.com>, <colornames.org>
+  and <color.pizza>, which convert color values into color names.
+URL: https://felixluginbuhl.com/colornames/, https://github.com/lgnbhl/colornames/
+Depends: 
+    R (>= 3.4)
+Imports: httr2
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
