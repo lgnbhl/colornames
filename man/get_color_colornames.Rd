@@ -11,6 +11,9 @@ get_color_colornames(hex, return_name_only = TRUE)
 
 \item{return_name_only}{if FALSE returns color name only}
 }
+\value{
+A character string.
+}
 \description{
 Return best color name of an hex color from the colornames API
 <https://colornames.org/download/>. If no color name exists, it returns NULL`.

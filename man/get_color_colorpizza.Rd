@@ -23,6 +23,9 @@ get_color_colorpizza(
 
 \item{return_name_only}{boolean. if TRUE returns color name only}
 }
+\value{
+A character string.
+}
 \description{
 Rest API that returns a bunch of color names for a given color-value.
 }

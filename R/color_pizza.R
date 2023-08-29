@@ -9,6 +9,8 @@
 #'
 #' @source \url{https://github.com/meodai/color-name-api}
 #'
+#' @return A character string.
+#'
 #' @examples
 #' \dontrun{
 #' get_color_colorpizza(

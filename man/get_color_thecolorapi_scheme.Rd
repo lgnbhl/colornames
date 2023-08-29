@@ -38,6 +38,9 @@ get_color_thecolorapi_scheme(
 
 \item{return_name_only}{boolean. if FALSE returns color name only}
 }
+\value{
+A character vector.
+}
 \description{
 Return a generated scheme for the provided seed color and optional mode.
 Color schemes are multi-color combinations chosen according to color-wheel relationsships.

@@ -32,6 +32,9 @@ get_color_thecolorapi(
 
 \item{return_name_only}{boolean. if TRUE returns color name only}
 }
+\value{
+A character string.
+}
 \description{
 Return available identifying information on the given color.
 }

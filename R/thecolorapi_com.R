@@ -11,6 +11,8 @@
 #' @param named boolean (optional) Whether to print the color names on resulting image, only applicable on SVG format. Example: FALSE.
 #' @param return_name_only boolean. if TRUE returns color name only
 #'
+#' @return A character string.
+#'
 #' @examples
 #' \dontrun{
 #' get_color_thecolorapi(hex = "0047AB")
@@ -90,6 +92,8 @@ get_color_thecolorapi <- function(hex = NULL, rgb = NULL, hsl = NULL, cmyk = NUL
 #' @param w integer (optional). Height of resulting image, only applicable on SVG format. Example: 350.
 #' @param named boolean (optional) Whether to print the color names on resulting image, only applicable on SVG format. Example: FALSE.
 #' @param return_name_only boolean. if FALSE returns color name only
+#'
+#' @return A character vector.
 #'
 #' @examples
 #' \dontrun{

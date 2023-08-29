@@ -9,6 +9,9 @@ get_color_colornames_latest(return_name_only = TRUE)
 \arguments{
 \item{return_name_only}{if TRUE returns color name only}
 }
+\value{
+A character vector.
+}
 \description{
 Get 100 latest color submissions from colornames.org API
 }

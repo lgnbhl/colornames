@@ -8,6 +8,8 @@
 #' @param hex Hex color code
 #' @param return_name_only if FALSE returns color name only
 #'
+#' @return A character string.
+#'
 #' @examples
 #' \dontrun{
 #' get_color_colornames(hex = "#0047AB")
@@ -53,6 +55,8 @@ get_color_colornames <- function(hex, return_name_only = TRUE) {
 #'
 #' @rdname get_color_name_random
 #'
+#' @return A character string.
+#'
 #' @examples
 #' \dontrun{
 #' get_color_colornames_random()
@@ -88,6 +92,8 @@ get_color_colornames_random <- function(return_name_only = TRUE) {
 #' @param return_name_only if TRUE returns color name only
 #'
 #' @rdname get_color_name_latest
+#'
+#' @return A character vector.
 #'
 #' @examples
 #' \dontrun{

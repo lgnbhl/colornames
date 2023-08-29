@@ -9,6 +9,9 @@ get_color_colornames_random(return_name_only = TRUE)
 \arguments{
 \item{return_name_only}{if TRUE returns color name only}
 }
+\value{
+A character string.
+}
 \description{
 Get a random color name from colornames.org API
 }
