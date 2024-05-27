@@ -6,6 +6,8 @@ output: github_document
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
+[![R-CMD-check](https://github.com/lgnbhl/colornames/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/colornames/actions/workflows/R-CMD-check.yaml)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-E4405F?style=social&logo=linkedin)](https://www.linkedin.com/in/FelixLuginbuhl)
 <!-- badges: end -->
 
 # colornames <img src="man/figures/logo.png" align="right" height="138" />

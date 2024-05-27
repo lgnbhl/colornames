@@ -4,6 +4,8 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/colornames)](https://CRAN.R-project.org/package=colornames)
+[![R-CMD-check](https://github.com/lgnbhl/colornames/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/colornames/actions/workflows/R-CMD-check.yaml)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-E4405F?style=social&logo=linkedin)](https://www.linkedin.com/in/FelixLuginbuhl)
 <!-- badges: end -->
 
 # colornames <img src="man/figures/logo.png" align="right" height="138" />
@@ -122,8 +124,14 @@ You can get color names from different color convention, i.e. `rgb`,
 ``` r
 get_color_thecolorapi(rgb = paste(3,60,71, sep = ","))
 ## [1] "Blue Whale"
+```
+
+``` r
 get_color_thecolorapi(hsl = paste("100","100%","34%", sep = ","))
 ## [1] "Limeade"
+```
+
+``` r
 get_color_thecolorapi(cmyk = paste(50,58,0,33, sep = ","))
 ## [1] "Plump Purple"
 ```
@@ -220,7 +228,7 @@ You an also get an random color name:
 ``` r
 get_color_colornames_random(return_name_only = FALSE)
 ##   hexCode              name
-## 1  f771ad Pretty Little Pig
+## 1  c2b4fc French Moon Coord
 ```
 
 You can explore the latest 100 submissions:
@@ -229,13 +237,13 @@ You can explore the latest 100 submissions:
 latest_100 <- get_color_colornames_latest(return_name_only = FALSE)
 
 head(latest_100)
-##    nameId hexCode                             name
-## 1 5192882  991bb2 Cadbury Heroes Box Colour Purple
-## 2 5192881  acf4d8               Minty Bubblegum Ho
-## 3 5192880  c80c3b                Blood Cell Red Ho
-## 4 5192879  8c345a    Morado Una Mijilla Mas Oscuro
-## 5 5192878  04b481               Babylonian Gardens
-## 6 5192877  af171f                  Cannibal's Love
+##    nameId hexCode                        name
+## 1 5812612  5e65c3          Hazy Indigo Dreams
+## 2 5812611  fbeee3           Pale Vampire Skin
+## 3 5812610  f7e0cd       Crusty Toenail Yellow
+## 4 5812609  e7de7e   Sunny Cotton Candy Yellow
+## 5 5812608  4f2c94                      Burple
+## 6 5812607  115fae The Mathematician's Secrets
 ```
 
 You can loop to get color names of a given palette:
@@ -340,23 +348,23 @@ get_color_colorpizza(
 ##            name     hex
 ## 1     Café Noir #4b3621
 ## 2 Phthalo Green #123524
-## 3   Kombu Green #354230
-##                                                           link rgb.r rgb.g
-## 1  https://en.wikipedia.org/wiki/Coffee_(color)#Caf%C3%A9_Noir    75    54
-## 2         https://en.wikipedia.org/wiki/Phthalocyanine_Green_G    18    53
-## 3 https://en.wikipedia.org/wiki/Chartreuse_(color)#Kombu_green    53    66
-##   rgb.b hsl.h    hsl.s    hsl.l    lab.l     lab.a    lab.b luminance
-## 1    33    30 38.88889 21.17647 24.64653   7.52734 17.00318  39.01021
-## 2    36   151 49.29577 13.92157 19.19804 -16.97218  6.79941  31.83870
-## 3    48   103 15.78947 22.35294 26.38109  -8.54020  9.18584  42.21389
-##   luminanceWCAG bestContrast                             swatchImg.svgNamed
-## 1       0.04244        white /v1/swatch/?color=3d290c&name=Caf%C3%A9%20Noir
-## 2       0.02802        white  /v1/swatch/?color=1c2f11&name=Phthalo%20Green
-## 3       0.04867        white    /v1/swatch/?color=2e3f24&name=Kombu%20Green
+## 3   Rifle Green #444c38
+##                                                          link rgb.r rgb.g rgb.b
+## 1 https://en.wikipedia.org/wiki/Coffee_(color)#Caf%C3%A9_Noir    75    54    33
+## 2        https://en.wikipedia.org/wiki/Phthalocyanine_Green_G    18    53    36
+## 3    https://en.wikipedia.org/wiki/Shades_of_green#Mint_green    68    76    56
+##   hsl.h    hsl.s    hsl.l    lab.l     lab.a    lab.b luminance luminanceWCAG
+## 1    30 38.88889 21.17647 24.64653   7.52734 17.00318  39.01021       0.04244
+## 2   151 49.29577 13.92157 19.19804 -16.97218  6.79941  31.83870       0.02802
+## 3    84 15.15152 25.88235 31.13019  -6.45902 10.80991  49.44063       0.06683
+##   bestContrast                             swatchImg.svgNamed
+## 1        white /v1/swatch/?color=3d290c&name=Caf%C3%A9%20Noir
+## 2        white  /v1/swatch/?color=1c2f11&name=Phthalo%20Green
+## 3        white    /v1/swatch/?color=2e3f24&name=Rifle%20Green
 ##              swatchImg.svg requestedHex distance
 ## 1 /v1/swatch/?color=3d290c      #3d290c  5.21463
 ## 2 /v1/swatch/?color=1c2f11      #1c2f11  7.07137
-## 3 /v1/swatch/?color=2e3f24      #2e3f24  4.03246
+## 3 /v1/swatch/?color=2e3f24      #2e3f24  6.79268
 ```
 
 You can get color names from an existing list of colors using the
